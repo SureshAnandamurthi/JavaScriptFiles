@@ -9,3 +9,4 @@ function reversed(val){
 }
 
 reversed(123456);
+

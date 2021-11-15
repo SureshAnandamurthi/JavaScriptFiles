@@ -9,6 +9,7 @@ function div7(){
         console.log(`${num} is NOT divisible by 7`);
         return (`${num} is NOT divisible by 7`);
     }
+    
 }
 
 let result1 = div7();
@@ -37,6 +38,15 @@ function positiveCheck(){
 let result3 = positiveCheck();
 
 // 4. Write a program to check if a number is having 4 at the unit's place or not?
+function unitPlaceCheck(){
+    let num = window.prompt("Enter number to check if 4 is in Unit place");
+    if(num[num.length-1] == '4'){
+	return `${Number(num)} has 4 in unit place.`
+    } else{
+	return `${Number(num)} Does not have 4 in unit place.`
+    }
+}
+
 
 // 5. Write a program to check if a number is 3-digit numbers or not?
 function checkDigit(){
