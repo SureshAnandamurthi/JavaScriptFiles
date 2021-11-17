@@ -42,3 +42,14 @@ console.log(arrList);
 console.log();
 }
 
+//14. JavaScript Array Splice Method Explanation
+
+{
+let arrList = [1, 2, 3];
+console.log(arrList.splice(1,2));
+console.log(arrList);
+arrList.push(10,20,30);
+console.log(arrList);
+arrList.pop();
+console.log(arrList);
+}
